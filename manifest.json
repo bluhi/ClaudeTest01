@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "View-Source URL 제거기",
+  "version": "1.0.0",
+  "description": "주소창 URL에 view-source:가 포함되어 있으면 이를 제거하고 원본 URL로 다시 표시합니다.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
