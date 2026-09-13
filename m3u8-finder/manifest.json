@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "M3U8 링크 찾기",
+  "version": "1.0.0",
+  "description": "현재 웹페이지 소스에서 .m3u8이 포함된 줄을 찾아 목록으로 보여줍니다.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "M3U8 링크 찾기"
+  }
+}
